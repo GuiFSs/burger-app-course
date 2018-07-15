@@ -13,13 +13,6 @@ const Order = props => {
         )
     }
 
-    let myObj = {a: 1, b: 2, c: 3};
-
-    let entr = Object.entries(myObj);
-    console.log(entr);
-    
-    
-    
     const ingredientOutput = ingredients.map(ig => {
         return (
             <span 

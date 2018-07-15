@@ -8,11 +8,6 @@ class Modal extends React.Component {
         return nextProps.show !== this.props.show || nextProps.isLoading !== this.props.isLoading;
     }
 
-    componentWillUpdate() {
-        console.log('[MODAL] will update');
-    }
-    
-
     render () {
         return (
             <Fragment>
